@@ -1,0 +1,52 @@
+﻿@model List<Instructors>
+<div class="table-responsive">
+<table class="table">
+
+    <thead>the instructors info</thead>
+    
+    <tr>
+   
+    <td>
+
+        <th>NAme</th>
+        <th> Image </th>
+        <th> Salary </th>
+        <th> dept_id </th>
+
+
+    </td>
+
+    </tr>
+
+
+
+
+       
+
+            @foreach(var item in Model)
+            {
+        <tr>
+            <td>
+                @item.Name
+
+
+            </td>
+            <td>@item.Image</td>
+            <td>@item.Salary</td>
+            <td>@item.dept_id</td>
+
+
+        </tr>
+            }
+
+
+      
+
+
+
+
+
+</table>
+</div>
+
+<a href="/home/index" class="btn-group-toggle" >HOME</a>

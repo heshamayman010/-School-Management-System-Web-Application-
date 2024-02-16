@@ -1,0 +1,46 @@
+﻿
+@model Instructors
+
+@{
+    SelectList depts = new SelectList(ViewBag.departments, "Id", "Name");
+
+}
+<form action="/instructors/infosignin" method="post">
+
+        <div class="form-group">
+            <label asp-for="Name"> </label>
+            <input  class="form-control" asp-for="Name">
+        </div>
+    <div class="form-group">
+        <label for="Image">instructor Image </label>
+        <input  class="form-control" asp-for="Image">
+    </div>
+    <div class="form-group">
+        <label for="Salary">instructor salray </label>
+        <input type="text" class="form-control" name="Salary" id="Salary">
+    </div>
+
+        <div class="form-group">
+        <label for="Address">Address:</label>
+        <input class="form-control"asp-for="Address">
+        </div>
+    <div class="form-group">
+        <label for="Department"> the department :</label>
+       <select asp-for="dept_id"asp-items="depts">
+
+
+       </select>
+
+    </div>
+
+
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+
+
+@*     you must call these libraries to be able to excute the client side validations 
+ *@
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

@@ -1,0 +1,55 @@
+﻿
+
+@model Courses
+<form action="/Courses/second" method="post" >
+    <div asp-validation-summary="All" class="text-danger"> </div>
+
+
+    <label asp-for="Name"> Enter Your Name Here  </label>
+<input asp-for="Name"  value="enter your name here " />
+    <span asp-validation-for="Name" class="text-danger"></span>
+<br />
+    <br />
+
+    <label asp-for="Degree"> Enter Your Degree Here  </label>
+
+<input asp-for="Degree" value="enter your degree here " />
+    <span asp-validation-for="Degree" class="text-danger"></span>
+
+<br />
+    <br />
+
+    <label asp-for="Degree"> Enter Your minimum Here  </label>
+    <br />
+
+
+
+    <input asp-for="Min_degree" value="enter your MIN__degree here " />
+    <span asp-validation-for="Min_degree" class="text-danger"></span>
+
+<br />
+    <br />
+
+    <label asp-for="dept_id"> Enter Your dept_id Here  </label>
+    <br />
+    <br />
+
+    <input asp-for="dept_id" value="enter your dept_id here " />
+    <span asp-validation-for="dept_id" class="text-danger"></span>
+
+    <input type="submit" class="btn-success"  value="SUBMIT "/>
+
+
+
+</form>
+
+@section scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}
+
+
+
+   

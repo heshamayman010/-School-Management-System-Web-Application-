@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@* 
+<form action="Upload" class="form-control" enctype="multipart/form-data" method="post">
+
+    <label> UPLOAD IMAGE </label>
+    <input type="file" value=" upload the photo"/>
+    <input type="submit" value="Upload" class="alert-success" />
+
+
+</form>
+ *@
+
+<h2>@ViewData["Title"]</h2>
+
+<form action="Upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="image">Select Image:</label>
+        <input type="file" value="ok" name="image"  class="form-control-file" />
+    </div>
+    <input type="submit" value="Create" class="btn btn-primary" />
+@*     <button type="submit" class="btn btn-primary">Upload</button> *@
+</form>

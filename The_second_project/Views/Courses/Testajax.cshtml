@@ -1,0 +1,33 @@
+﻿@model List<Courses>
+
+@{
+    SelectList listaa = new SelectList(Model, "Id", "Name"); 
+
+}
+
+<select  asp-items="listaa" id="crs" name="crs" class="form-control" onclick="GetDetails()">
+
+
+    <option value="100">---select one course----</option>
+
+
+</select>
+
+
+<script>
+
+    function GetDetails() { 
+    
+        var std = document.getElementById('crs').value;
+        console.log(std)
+    
+    }
+
+
+
+ </script>
+ <h1>Testajax</h1>
+
+
+
+

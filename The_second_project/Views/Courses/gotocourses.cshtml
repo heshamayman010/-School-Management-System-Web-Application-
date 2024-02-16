@@ -1,0 +1,59 @@
+﻿@model List<Courses>
+
+<div class="table-responsive">
+<table class="table">
+
+    <thead>the couress info</thead>
+    
+    <tr>
+   
+    <td>
+
+        <th> Name </th>
+        <th> Degree </th>
+            <th> MIN__Degree </th>
+
+        <th> dept_id </th>
+
+    </td>
+
+    </tr>
+
+
+
+
+       
+
+            @foreach(var item in Model)
+            {
+        <tr>
+            <td>
+                @item.Id
+
+
+            </td>
+            <td>@item.Name</td>
+            <td>@item.Degree</td>
+                <td>@item.Min_degree</td>
+
+            <td>@item.dept_id</td>
+
+
+        </tr>
+            }
+
+
+
+     
+
+
+
+
+
+</table>
+</div>
+
+
+
+
+<a asp-action="Index" asp-controller="Home" >Back to Home</a>

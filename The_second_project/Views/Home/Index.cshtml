@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<a asp-action"getall" asp-controller"Instructors" class="btn-block "> GET ALL </a>
+<br />
+<br />
+<br />
+<br />
+
+<a href="/instructors/signin" class="btn-block ">  Add New instructor </a>
+<br />
+<br />
+<br />
+
+<a asp-action="signin2" asp-controller="instructors"> GET ALL THE INSTructors usig the tag </a>
+<br />
+<br />
+
+<a asp-action="gotocourses" asp-controller="Courses" class="btn-success"> GET ALL COURSES</a>
+<br />
+
+<a asp-action="first" asp-controller="Courses" >ADD NEW COURse</a>
+<a asp-action="gg" asp-controller="Courses"> goooooooooooo </a>
+<hr />
+
+<br />
+<br />
+<a asp-action="addnewcourse" asp-controller="Courses"> ADD NEw COURSEEEEE </a>
+
+<br />
+<hr />
+
+
+<a asp-action="neww" asp-controller="Rolle">Add Role </a>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<a asp-action="addadmin" asp-controller="Account"> ADD ADMIN USER  </a>

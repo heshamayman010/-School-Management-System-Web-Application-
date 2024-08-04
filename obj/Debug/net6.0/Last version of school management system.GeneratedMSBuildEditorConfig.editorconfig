@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Last_version_of_school_management_system
+build_property.RootNamespace = Last_version_of_school_management_system
+build_property.ProjectDir = D:\Api Projects\doctors and patients\Last version of school management system\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Api Projects\doctors and patients\Last version of school management system
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/addnew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxhZGRuZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/forgetbudepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3Rvclxmb3JnZXRidWRlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/forgetbyname.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3Rvclxmb3JnZXRieW5hbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/Forthinputid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxGb3J0aGlucHV0aWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/getall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/Getbydepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxHZXRieWRlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/getbyid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRieWlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Instructor/getbyname.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRieW5hbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Api Projects/doctors and patients/Last version of school management system/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t544pg7uoi

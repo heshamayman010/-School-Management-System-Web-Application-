@@ -1,0 +1,36 @@
+﻿@model Last_version_of_school_management_system.Models.Mymodels.Instructors;
+@using Last_version_of_school_management_system.Models.Mymodels;
+
+
+<div class="alert-heading">
+
+    <h3 class="text-center text-muted "> the Instructor: @Model.Name Full Data  </h3>
+</div>
+<div>
+
+    <table class="table table-bordered ">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Salary</th>
+                <th scope="col">Address</th>
+                <th scope="col">Department</th>
+                <th scope="col">Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">@Model.Id</th>
+                <td> @Model.Name</td>
+                <td> @Model.Image</td>
+                <td> @Model.Salary</td>
+                <td> @Model.Address</td>
+                <td> @Model.deptartment_id</td>
+                <td> @Model.course_id</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,39 @@
+﻿@model List<Last_version_of_school_management_system.Models.Mymodels.Instructors>;
+@using Last_version_of_school_management_system.Models.Mymodels;
+
+
+<div class="alert-heading">
+
+    <h3 class="text-center text-muted ">  Instructors by the Id @ViewBag.theid </h3>
+    </div>
+    <div>
+
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Salary</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td> @item.Name</td>
+                        <td> @item.Image</td>
+                        <td> @item.Salary</td>
+                        <td> @item.Address</td>
+                        <td> @item.deptartment_id</td>
+                        <td> @item.course_id</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>

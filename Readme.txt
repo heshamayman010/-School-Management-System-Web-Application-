@@ -1,7 +1,7 @@
 # School Management System
 
 ## Overview
-This project is a more organized and efficient version of the previous School Management System. It aims to provide a user-friendly interface for all the actions and i am still working on  .
+This project is a more organized and efficient version of the previous School Management System. It aims to provide a user-friendly interface for all the actions and i am still working on it.
 
 ## Features
 - Manage Instructors

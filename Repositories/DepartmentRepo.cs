@@ -69,5 +69,6 @@ namespace Last_version_of_school_management_system.Repositories
             context.Departments.Add(departmenttoadd);
             context.SaveChanges();
         }
+
     }
 }

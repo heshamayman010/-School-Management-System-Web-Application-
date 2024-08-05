@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iVIbgCSRHMIlv/2odGmjvhUAqk2p5h+eDMosR8CjgdyOlJteyPJ7WP1mT+NoRQk0z9lN+i/H0jS9IS3ppfyDmQ==",
+  "dgSpecHash": "4X4u4LSn9SPXBZ4Dda6bYfUyRoM3CUmMy8mGuXPsHke4Kp0WeQNjiEs2uvjDZt9ELfQVa99pNbxHey/ccYcY1w==",
   "success": true,
-  "projectFilePath": "D:\\Api Projects\\doctors and patients\\Last version of school management system\\Last version of school management system.csproj",
+  "projectFilePath": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amr\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Amr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

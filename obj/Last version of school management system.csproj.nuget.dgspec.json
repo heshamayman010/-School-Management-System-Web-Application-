@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Api Projects\\doctors and patients\\Last version of school management system\\Last version of school management system.csproj": {}
+    "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj": {}
   },
   "projects": {
-    "D:\\Api Projects\\doctors and patients\\Last version of school management system\\Last version of school management system.csproj": {
+    "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Api Projects\\doctors and patients\\Last version of school management system\\Last version of school management system.csproj",
+        "projectUniqueName": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
         "projectName": "Last version of school management system",
-        "projectPath": "D:\\Api Projects\\doctors and patients\\Last version of school management system\\Last version of school management system.csproj",
+        "projectPath": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
         "packagesPath": "C:\\Users\\Amr\\.nuget\\packages\\",
-        "outputPath": "D:\\Api Projects\\doctors and patients\\Last version of school management system\\obj\\",
+        "outputPath": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amr\\AppData\\Roaming\\NuGet\\NuGet.Config",

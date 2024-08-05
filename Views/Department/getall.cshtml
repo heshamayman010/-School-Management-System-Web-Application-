@@ -1,0 +1,31 @@
+﻿@model List<Last_version_of_school_management_system.Models.Mymodels.Departments>;
+@using Last_version_of_school_management_system.Models.Mymodels;
+
+
+<div class="alert-heading">
+
+    <h3 class="text-center text-muted ">  all the contenet of the Departments </h3>
+    </div>
+    <div>
+
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Manger</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td> @item.Name</td>
+                        <td> @item.Manger</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>

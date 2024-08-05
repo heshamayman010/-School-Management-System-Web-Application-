@@ -1,4 +1,5 @@
-﻿using Last_version_of_school_management_system.Repositories.IRepos;
+﻿using Last_version_of_school_management_system.Models.Mymodels;
+using Last_version_of_school_management_system.Repositories.IRepos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Last_version_of_school_management_system.Controllers
@@ -28,6 +29,13 @@ namespace Last_version_of_school_management_system.Controllers
         }
 
 
+
+       public IActionResult forgetbyid()
+        {
+
+            return View();
+        }
+
         public IActionResult getbyid(int id)
         {
 
@@ -36,5 +44,119 @@ namespace Last_version_of_school_management_system.Controllers
         }
 
 
+
+        // delete - edit - add 
+
+        [HttpGet]
+        public IActionResult Adddepartment()
+        {
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Adddepartment(Departments departmenttoadd)
+        {
+
+            if (ModelState.IsValid)
+            {
+                repo.Add(departmenttoadd);
+                return RedirectToAction("getall");
+            }
+            else
+            {
+
+                return View();
+            }
+        }
+
+
+        [HttpGet]
+        public IActionResult delete()
+        {
+
+            return View();
+
+        }
+        [HttpPost]
+        public IActionResult delete(int id)
+        {
+
+            var deletedornot = repo.Delete(id);
+
+            // to check if it could delete the department 
+            if (deletedornot)
+            {
+
+                return RedirectToAction("getall");
+            }
+            else
+            {
+
+                return View();
+
+            }
+
+        }
+
+        [HttpGet]
+        public IActionResult Edit()
+        {
+            return View();
+
+        }
+
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public IActionResult Edit(int id, Departments department)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            else
+            {
+
+                repo.Edit(id, department);
+                return RedirectToAction("getall");
+
+
+            }
+
+        }
+
+
+
+
+
     }
 }
+
+//[HttpGet]
+//public IActionResult Edit()
+
+//{
+//    return View();
+
+//}
+
+//// to apply the edit 
+//[ValidateAntiForgeryToken]
+//[HttpPost]
+//public IActionResult Edit(int id, Instructors instructor)
+//{
+//    if (id == 0)
+//    {
+//        return BadRequest();
+//    }
+//    else
+//    {
+
+//        repo.Editoneinstructor(id, instructor);
+//        return RedirectToAction("getall");
+
+
+//    }
+
+//}
+

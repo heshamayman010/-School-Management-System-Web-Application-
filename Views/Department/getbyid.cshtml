@@ -1,0 +1,28 @@
+﻿@model Last_version_of_school_management_system.Models.Mymodels.Departments;
+@using Last_version_of_school_management_system.Models.Mymodels;
+
+
+<div class="alert-heading">
+
+    <h3 class="text-center text-muted ">  Departments Data  </h3>
+</div>
+<div>
+
+    <table class="table table-bordered ">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Manger</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">@Model.Id</th>
+                <td> @Model.Name</td>
+                <td> @Model.Manger</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

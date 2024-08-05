@@ -132,31 +132,3 @@ namespace Last_version_of_school_management_system.Controllers
     }
 }
 
-//[HttpGet]
-//public IActionResult Edit()
-
-//{
-//    return View();
-
-//}
-
-//// to apply the edit 
-//[ValidateAntiForgeryToken]
-//[HttpPost]
-//public IActionResult Edit(int id, Instructors instructor)
-//{
-//    if (id == 0)
-//    {
-//        return BadRequest();
-//    }
-//    else
-//    {
-
-//        repo.Editoneinstructor(id, instructor);
-//        return RedirectToAction("getall");
-
-
-//    }
-
-//}
-

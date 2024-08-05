@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj": {}
+    "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\Last version of school management system.csproj": {}
   },
   "projects": {
-    "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj": {
+    "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\Last version of school management system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
+        "projectUniqueName": "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
         "projectName": "Last version of school management system",
-        "projectPath": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
+        "projectPath": "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
         "packagesPath": "C:\\Users\\Amr\\.nuget\\packages\\",
-        "outputPath": "D:\\all in desktop 195\\old cvs\\-School-Management-System-Web-Application-\\obj\\",
+        "outputPath": "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amr\\AppData\\Roaming\\NuGet\\NuGet.Config",

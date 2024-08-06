@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Last_version_of_school_management_system.Models.Mymodels;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Last_version_of_school_management_system.Models.Mymodels
@@ -16,15 +18,19 @@ namespace Last_version_of_school_management_system.Models.Mymodels
         //[ForeignKey("deptartment_id")]
         public Departments? department { get; set; }
 
+        [Remote("checkfordepartmentid", "Instructor", ErrorMessage = "the id of department you enterd not found ")]
         public int? deptartment_id { set; get; }
         
         //[ForeignKey("course_id")]
         public List<Courses>? course { get; set; }
 
 
-        public int course_id { set; get; }
+        [Remote("checkforcoursid", "Instructor", ErrorMessage = "the id of course you enterd not found ")]
+        public int? course_id { set; get; }
 
 
 
     }
 }
+
+

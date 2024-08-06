@@ -1,0 +1,38 @@
+﻿@model Last_version_of_school_management_system.Models.Mymodels.Courses;
+@using Last_version_of_school_management_system.Models.Mymodels;
+
+
+<div class="alert-heading">
+
+    <h3 class="text-center text-muted ">  all the contenet of the courses with id @Model.Id </h3>
+</div>
+<div>
+
+    <table class="table table-bordered ">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Degree</th>
+                <th scope="col">Min_degree</th>
+                <th scope="col">department id </th>
+                <th scope="col">instructor_id</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <th scope="row">@Model.Id</th>
+                    <td> @Model.Name</td>
+                    <td> @Model.Degree</td>
+                    <td> @Model.Min_degree</td>
+                    <td> @Model.dept_id</td>
+                    <td> @Model.instructor_id</td>
+                </tr>
+            
+        </tbody>
+    </table>
+
+</div>
+
+
+

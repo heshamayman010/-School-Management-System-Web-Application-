@@ -17,11 +17,14 @@ namespace Last_version_of_school_management_system.Models.Mymodels
         public int Min_degree { get; set; }
 
 
-        public Departments Departments { get; set; }
+        public Departments? Departments { get; set; }
         //[ForeignKey("Departments")]
+        [Remote("checkfordepartmentid", "Course", ErrorMessage ="the id of department you enterd not found ")]
         public int? dept_id { get; set; }
 
-        public Instructors Instructor { get; set; }
+        public Instructors? Instructor { get; set; }
+
+        [Remote("CheckforinstructorId", "Course",ErrorMessage ="the instructor id you enterd not found ")]
         public int instructor_id { get; set; }
 
     }

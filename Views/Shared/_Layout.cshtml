@@ -18,7 +18,7 @@
                 <div class="card-header h3 text-muted text-center">
                     All Actions
                 </div>
-                <div class="card-body" style="min-height:700px">
+             <div class="card-body" style="min-height:700px">
                     
                     
                     @* for the choosing  *@
@@ -31,9 +31,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
 
                     <div class="row mt-1">
 
@@ -116,6 +113,7 @@
                         </div>
                     </div>
 
+                    <hr />
                     </div>
 
                     @* ----------------------------------------------------DEpartments --------------------------------------------------- *@
@@ -136,7 +134,7 @@
                         <div class="row mt-1">
                             <div class="col">
                                 <div class="d-grid">
-                                    <a asp-action="forgetbyid" asp-controller="Department" class="btn card-text btn-dark">Get instructor By ID </a>
+                                    <a asp-action="forgetbyid" asp-controller="Department" class="btn card-text btn-dark">Get Department By ID </a>
                                 </div>
                             </div>
                         </div>
@@ -167,12 +165,73 @@
                         </div>
 
 
-                        
+                        <hr />
 
 
                     </div>
+
+
+
+                    @* ------------------------------------------------- Courses Sections ------------------------------------------------------- *@
+
+                    <div id="Course-actions" style="display:none ;" class="mt-3">
+
+
+
+                        <div class="row mt-1">
+                            <div class="col">
+                                <div class="d-grid">
+                                    <a asp-action="getall" asp-controller="Course" class="btn card-text btn-dark"> All Courses </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                            <div class="row mt-1">
+                                <div class="col">
+                                    <div class="d-grid">
+                                    <a asp-action="forgetbyid" asp-controller="Course" class="btn card-text btn-dark"> search by id </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="row mt-1">
+                            <div class="col">
+                                <div class="d-grid">
+                                    <a asp-action="forgetbydepartmetn" asp-controller="Course" class="btn card-text btn-dark"> search by Department </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-1">
+                            <div class="col">
+                                <div class="d-grid">
+                                    <a asp-action="Add" asp-controller="Course" class="btn card-text btn-dark"> Add New Course </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        
+
+
+
+                            <hr />
+
+
+
+
+                    </div>
+
+
+
+
+
+
             </div>
-        </div>
+         </div>
 
 
        
@@ -235,6 +294,13 @@
 
                     document.getElementById("Department-actions").style = "display: block;"
                 })
+
+
+                document.getElementById("CourseButton").addEventListener('click', function () {
+
+                    document.getElementById("Course-actions").style = "display: block;"
+                })
+
 
 
             </script>

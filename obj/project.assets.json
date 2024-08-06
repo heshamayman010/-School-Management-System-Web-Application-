@@ -10500,11 +10500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
+      "projectUniqueName": "D:\\My repository from githup\\4\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
       "projectName": "Last version of school management system",
-      "projectPath": "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
+      "projectPath": "D:\\My repository from githup\\4\\-School-Management-System-Web-Application-\\Last version of school management system.csproj",
       "packagesPath": "C:\\Users\\Amr\\.nuget\\packages\\",
-      "outputPath": "D:\\My repository from githup\\school mangement system\\-School-Management-System-Web-Application-\\obj\\",
+      "outputPath": "D:\\My repository from githup\\4\\-School-Management-System-Web-Application-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amr\\AppData\\Roaming\\NuGet\\NuGet.Config",

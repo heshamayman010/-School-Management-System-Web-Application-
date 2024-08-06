@@ -1,0 +1,40 @@
+﻿@model List<Last_version_of_school_management_system.Models.Mymodels.Courses>;
+@using Last_version_of_school_management_system.Models.Mymodels;
+
+
+<div class="alert-heading">
+
+    <h3 class="text-center text-muted ">  all the contenet of the courses </h3>
+</div>
+<div>
+
+    <table class="table table-bordered ">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Degree</th>
+                <th scope="col">Min_degree</th>
+                <th scope="col">department id </th>
+                <th scope="col">instructor_id</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td> @item.Name</td>
+                    <td> @item.Degree</td>
+                    <td> @item.Min_degree</td>
+                    <td> @item.dept_id</td>
+                    <td> @item.instructor_id</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
+

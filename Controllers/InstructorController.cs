@@ -7,10 +7,12 @@ namespace Last_version_of_school_management_system.Controllers
     public class InstructorController : Controller
     {
         private readonly IRepoInstructor repo;
+        private readonly AppDbcontext context;
 
-        public InstructorController(IRepoInstructor repo)
+        public InstructorController(IRepoInstructor repo,AppDbcontext context)
         {
             this.repo = repo;
+            this.context = context;
         }
 
 
@@ -144,6 +146,46 @@ namespace Last_version_of_school_management_system.Controllers
             {
 
                 return View();
+            }
+        }
+
+
+
+
+
+
+        public IActionResult checkfordepartmentid(int deptartment_id)
+        {
+
+            var found = context.Departments.FirstOrDefault(x => x.Id == deptartment_id);
+
+            if (found == null)
+            {
+                return Json(false);
+            }
+            else
+            {
+
+                return Json(true);
+            }
+
+        }
+
+
+
+
+        public IActionResult checkforcoursid(int coursid_id)
+        {
+
+            var found=context.Courses.FirstOrDefault(x=>x.Id == coursid_id);
+
+            if(found == null)
+            {
+                return Json(false);
+            }
+            else
+            {
+                return Json(true);
             }
         }
 

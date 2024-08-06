@@ -9,101 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Last_version_of_school_management_system
 build_property.RootNamespace = Last_version_of_school_management_system
-build_property.ProjectDir = D:\My repository from githup\school mangement system\-School-Management-System-Web-Application-\
+build_property.ProjectDir = D:\My repository from githup\4\-School-Management-System-Web-Application-\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\My repository from githup\school mangement system\-School-Management-System-Web-Application-
+build_property.MSBuildProjectDirectory = D:\My repository from githup\4\-School-Management-System-Web-Application-
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Department/Adddepartment.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Course/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Course/forgetbydepartmetn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXGZvcmdldGJ5ZGVwYXJ0bWV0bi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Course/forgetbyid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXGZvcmdldGJ5aWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Course/getall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXGdldGFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Course/Getbydepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEdldGJ5ZGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Course/getbyid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXGdldGJ5aWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Department/Adddepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZGRkZXBhcnRtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Department/delete.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Department/delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxkZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Department/Edit.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Department/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Department/forgetbyid.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Department/forgetbyid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxmb3JnZXRieWlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Department/getall.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Department/getall.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxnZXRhbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Department/getbyid.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Department/getbyid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxnZXRieWlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Home/Index.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Home/Privacy.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/addnew.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/addnew.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxhZGRuZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/delete.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxkZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/Edit.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/forgetbudepartment.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/forgetbudepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3Rvclxmb3JnZXRidWRlcGFydG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/forgetbyname.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/forgetbyname.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3Rvclxmb3JnZXRieW5hbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/Forthinputid.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/Forthinputid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxGb3J0aGlucHV0aWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/getall.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/getall.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRhbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/Getbydepartment.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/Getbydepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxHZXRieWRlcGFydG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/getbyid.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/getbyid.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRieWlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Instructor/getbyname.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Instructor/getbyname.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxnZXRieW5hbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Shared/Error.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/_ViewImports.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/_ViewStart.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My repository from githup/school mangement system/-School-Management-System-Web-Application-/Views/Shared/_Layout.cshtml]
+[D:/My repository from githup/4/-School-Management-System-Web-Application-/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t544pg7uoi
